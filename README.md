@@ -1,6 +1,6 @@
 # Computación Gráfica T3
 
-Proyecto universitario de Computación Gráfica y Visual con C++, OpenGL clásico, FreeGLUT, Visual Studio 2022 y Windows x64.
+Proyecto universitario de Computación Gráfica y Visual con C++, OpenGL clásico, FreeGLUT, Visual Studio 2022/2026 y Windows x64.
 
 ## Ejercicios
 
@@ -10,7 +10,7 @@ Proyecto universitario de Computación Gráfica y Visual con C++, OpenGL clásic
 - `z_buffer01`: demostración de profundidad con planos superpuestos.
 - `z_buffer02`: escena con cubo, esfera, cilindro y Z-Buffer.
 
-## Compilación en Visual Studio 2022
+## Compilación en Visual Studio 2022/2026
 
 1. Instalar vcpkg.
 2. Instalar FreeGLUT para x64:
@@ -20,11 +20,11 @@ Proyecto universitario de Computación Gráfica y Visual con C++, OpenGL clásic
    vcpkg integrate install
    ```
 
-3. Abrir `ComputacionGraficaT3.sln` en Visual Studio 2022.
+3. Abrir `ComputacionGraficaT3.sln` en Visual Studio 2022 o Visual Studio 2026.
 4. Seleccionar `Debug | x64` o `Release | x64`.
 5. Compilar el proyecto del ejercicio que se desea ejecutar.
 
-Cada proyecto enlaza `freeglut.lib`, `opengl32.lib` y `glu32.lib`, e incluye rutas compatibles con `$(VcpkgRoot)installed\$(VcpkgTriplet)`.
+Cada proyecto enlaza `freeglut.lib`, `opengl32.lib` y `glu32.lib`, e incluye rutas compatibles con `$(VcpkgRoot)installed\$(VcpkgTriplet)`. El toolset de MSVC se detecta automáticamente con `$(DefaultPlatformToolset)`, por lo que no queda fijado a `v143` y puede usar el toolset instalado por Visual Studio 2026.
 
 ## Texturas BMP
 
