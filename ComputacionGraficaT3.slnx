@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ComputacionGraficaT3/ComputacionGraficaT3.vcxproj" Id="16f90b3f-8693-46c4-b986-271809a1abe4" />
+</Solution>
