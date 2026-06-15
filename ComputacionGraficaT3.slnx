@@ -1,7 +1,10 @@
 <Solution>
   <Configurations>
     <Platform Name="x64" />
-    <Platform Name="x86" />
   </Configurations>
-  <Project Path="ComputacionGraficaT3/ComputacionGraficaT3.vcxproj" Id="16f90b3f-8693-46c4-b986-271809a1abe4" />
+  <Project Path="ComputacionGraficaT3/textura01/textura01.vcxproj" />
+  <Project Path="ComputacionGraficaT3/textura02/textura02.vcxproj" />
+  <Project Path="ComputacionGraficaT3/textura03/textura03.vcxproj" />
+  <Project Path="ComputacionGraficaT3/z_buffer01/z_buffer01.vcxproj" />
+  <Project Path="ComputacionGraficaT3/z_buffer02/z_buffer02.vcxproj" />
 </Solution>

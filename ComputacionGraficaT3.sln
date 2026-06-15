@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "textura01", "ComputacionGraficaT3\textura01\textura01.vcxproj", "{A13F796E-B10E-584F-8DA2-32B45DE4DBA2}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "textura02", "ComputacionGraficaT3\textura02\textura02.vcxproj", "{C37CAF1D-E105-55D7-8038-54D02ECE4E44}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "textura03", "ComputacionGraficaT3\textura03\textura03.vcxproj", "{6A7F18C7-ACE2-5F86-97B6-2B6E034A768C}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "z_buffer01", "ComputacionGraficaT3\z_buffer01\z_buffer01.vcxproj", "{CAD285C4-D211-5988-AA1C-9F90F3BB75A8}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "z_buffer02", "ComputacionGraficaT3\z_buffer02\z_buffer02.vcxproj", "{0B022618-CFB2-54B0-8EB1-57A5DEFC67D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A13F796E-B10E-584F-8DA2-32B45DE4DBA2}.Debug|x64.ActiveCfg = Debug|x64
+		{A13F796E-B10E-584F-8DA2-32B45DE4DBA2}.Debug|x64.Build.0 = Debug|x64
+		{A13F796E-B10E-584F-8DA2-32B45DE4DBA2}.Release|x64.ActiveCfg = Release|x64
+		{A13F796E-B10E-584F-8DA2-32B45DE4DBA2}.Release|x64.Build.0 = Release|x64
+		{C37CAF1D-E105-55D7-8038-54D02ECE4E44}.Debug|x64.ActiveCfg = Debug|x64
+		{C37CAF1D-E105-55D7-8038-54D02ECE4E44}.Debug|x64.Build.0 = Debug|x64
+		{C37CAF1D-E105-55D7-8038-54D02ECE4E44}.Release|x64.ActiveCfg = Release|x64
+		{C37CAF1D-E105-55D7-8038-54D02ECE4E44}.Release|x64.Build.0 = Release|x64
+		{6A7F18C7-ACE2-5F86-97B6-2B6E034A768C}.Debug|x64.ActiveCfg = Debug|x64
+		{6A7F18C7-ACE2-5F86-97B6-2B6E034A768C}.Debug|x64.Build.0 = Debug|x64
+		{6A7F18C7-ACE2-5F86-97B6-2B6E034A768C}.Release|x64.ActiveCfg = Release|x64
+		{6A7F18C7-ACE2-5F86-97B6-2B6E034A768C}.Release|x64.Build.0 = Release|x64
+		{CAD285C4-D211-5988-AA1C-9F90F3BB75A8}.Debug|x64.ActiveCfg = Debug|x64
+		{CAD285C4-D211-5988-AA1C-9F90F3BB75A8}.Debug|x64.Build.0 = Debug|x64
+		{CAD285C4-D211-5988-AA1C-9F90F3BB75A8}.Release|x64.ActiveCfg = Release|x64
+		{CAD285C4-D211-5988-AA1C-9F90F3BB75A8}.Release|x64.Build.0 = Release|x64
+		{0B022618-CFB2-54B0-8EB1-57A5DEFC67D1}.Debug|x64.ActiveCfg = Debug|x64
+		{0B022618-CFB2-54B0-8EB1-57A5DEFC67D1}.Debug|x64.Build.0 = Debug|x64
+		{0B022618-CFB2-54B0-8EB1-57A5DEFC67D1}.Release|x64.ActiveCfg = Release|x64
+		{0B022618-CFB2-54B0-8EB1-57A5DEFC67D1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+EndGlobal
