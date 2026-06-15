@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="VisualStudioToolsetAutoDetection">
+    <!--
+      Do not hard-code v143: Visual Studio 2026 and newer installations can ship
+      a newer MSVC PlatformToolset. Microsoft.Cpp.Default.props defines
+      $(DefaultPlatformToolset) for the installed Visual C++ workload, so each
+      project uses the toolset that is actually available in the current IDE.
+    -->
+    <PlatformToolset Condition="'$(PlatformToolset)' == '' and '$(DefaultPlatformToolset)' != ''">$(DefaultPlatformToolset)</PlatformToolset>
+  </PropertyGroup>
+</Project>
