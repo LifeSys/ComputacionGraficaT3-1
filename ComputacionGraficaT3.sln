@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
 VisualStudioVersion = 18.0.10000.0
-MinimumVisualStudioVersion = 10.0.40219.1
+MinimumVisualStudioVersion = 18.0.10000.0
 Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "textura01", "ComputacionGraficaT3\textura01\textura01.vcxproj", "{A13F796E-B10E-584F-8DA2-32B45DE4DBA2}"
 EndProject
 Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "textura02", "ComputacionGraficaT3\textura02\textura02.vcxproj", "{C37CAF1D-E105-55D7-8038-54D02ECE4E44}"
